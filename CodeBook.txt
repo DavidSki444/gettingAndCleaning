@@ -1,0 +1,80 @@
+Code Book 
+=================
+
+The data set provides, for each activity and each subject, the average of the following variables, which are the measurements on the mean and standard deviation for each measurement from the original "Human Activity Recognition Using Smartphones Dataset" :
+
+(...-mean(): Mean value
+...-std(): Standard deviation)
+
+-- Accelerometer - time domain signals (prefix 't' to denote time) :
+1 tBodyAcc-mean()-X : body acceleration - X direction - Mean value
+2 tBodyAcc-mean()-Y : body acceleration - Y direction - Mean value
+3 tBodyAcc-mean()-Z : body acceleration - Z direction - Mean value
+4 tBodyAcc-std()-X : body acceleration - X direction - Standard deviation
+5 tBodyAcc-std()-Y : body acceleration - Y direction - Standard deviation
+6 tBodyAcc-std()-Z : body acceleration - Z direction - Standard deviation
+7 tGravityAcc-mean()-X : gravity acceleration - X direction - Mean value
+8 tGravityAcc-mean()-Y : gravity acceleration - Y direction - Mean value
+9 tGravityAcc-mean()-Z : gravity acceleration - Z direction - Mean value
+10 tGravityAcc-std()-X : gravity acceleration - X direction - Standard deviation
+11 tGravityAcc-std()-Y : gravity acceleration - Y direction - Standard deviation
+12 tGravityAcc-std()-Z : gravity acceleration - Z direction - Standard deviation
+-- Jerk signals :
+13 tBodyAccJerk-mean()-X : Jerk signals - body acceleration - X direction - Mean value
+14 tBodyAccJerk-mean()-Y : Jerk signals - body acceleration - Y direction - Mean value
+15 tBodyAccJerk-mean()-Z : Jerk signals - body acceleration - Z direction - Mean value
+16 tBodyAccJerk-std()-X : Jerk signals - body acceleration - X direction - Standard deviation
+17 tBodyAccJerk-std()-Y : Jerk signals - body acceleration - Y direction - Standard deviation
+18 tBodyAccJerk-std()-Z : Jerk signals - body acceleration - Z direction - Standard deviation
+-- Gyroscope 3-axial signals :
+19 tBodyGyro-mean()-X : gyroscope signals - X direction - Mean value
+20 tBodyGyro-mean()-Y : gyroscope signals - Y direction - Mean value
+21 tBodyGyro-mean()-Z : gyroscope signals - Z direction - Mean value
+22 tBodyGyro-std()-X : gyroscope signals - X direction - Standard deviation
+23 tBodyGyro-std()-Y : gyroscope signals - Y direction - Standard deviation
+24 tBodyGyro-std()-Z : gyroscope signals - Z direction - Standard deviation
+-- Jerk signals :
+25 tBodyGyroJerk-mean()-X : Jerk signals - gyroscope signals - X direction - Mean value
+26 tBodyGyroJerk-mean()-Y : Jerk signals - gyroscope signals - Y direction - Mean value
+27 tBodyGyroJerk-mean()-Z : Jerk signals - gyroscope signals - Z direction - Mean value
+28 tBodyGyroJerk-std()-X : Jerk signals - gyroscope signals - X direction - Standard deviation
+29 tBodyGyroJerk-std()-Y : Jerk signals - gyroscope signals - Y direction - Standard deviation
+30 tBodyGyroJerk-std()-Z : Jerk signals - gyroscope signals - Z direction - Standard deviation
+-- Magnitude calculated using the Euclidean norm :
+31 tBodyAccMag-mean() : Magnitude - body acceleration - Mean value
+32 tBodyAccMag-std() : Magnitude - body acceleration - Standard deviation
+33 tGravityAccMag-mean() : Magnitude - gravity acceleration - Mean value
+34 tGravityAccMag-std() : Magnitude - gravity acceleration - Standard deviation
+35 tBodyAccJerkMag-mean() : Magnitude - Jerk signals - body acceleration - Mean value
+36 tBodyAccJerkMag-std() : Magnitude - Jerk signals - body acceleration - Standard deviation
+37 tBodyGyroMag-mean() : Magnitude - gyroscope signals - Mean value
+38 tBodyGyroMag-std() : Magnitude - gyroscope signals - Standard deviation
+39 tBodyGyroJerkMag-mean() : Magnitude - Jerk signals - gyroscope signals - Mean value
+40 tBodyGyroJerkMag-std() : Magnitude - Jerk signals - gyroscope signals - Standard deviation
+-- Fast Fourier Transform (FFT) (Note the 'f' to indicate frequency domain signals) :
+41 fBodyAcc-mean()-X
+42 fBodyAcc-mean()-Y
+43 fBodyAcc-mean()-Z
+44 fBodyAcc-std()-X
+45 fBodyAcc-std()-Y
+46 fBodyAcc-std()-Z
+47 fBodyAccJerk-mean()-X
+48 fBodyAccJerk-mean()-Y
+49 fBodyAccJerk-mean()-Z
+50 fBodyAccJerk-std()-X
+51 fBodyAccJerk-std()-Y
+52 fBodyAccJerk-std()-Z
+53 fBodyGyro-mean()-X
+54 fBodyGyro-mean()-Y
+55 fBodyGyro-mean()-Z
+56 fBodyGyro-std()-X
+57 fBodyGyro-std()-Y
+58 fBodyGyro-std()-Z
+59 fBodyAccMag-mean()
+60 fBodyAccMag-std()
+61 fBodyBodyAccJerkMag-mean()
+62 fBodyBodyAccJerkMag-std()
+63 fBodyBodyGyroMag-mean()
+64 fBodyBodyGyroMag-std()
+65 fBodyBodyGyroJerkMag-mean()
+66 fBodyBodyGyroJerkMag-std()
