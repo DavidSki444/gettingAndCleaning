@@ -1,6 +1,6 @@
 #1. Merges the training and the test sets to create one data set.
 #- 'train/X_train.txt': Training set.
-#- 'test/X_test.txt': Test set.
+#- 'test/X_test.txt': Test set. 
 
 # training and test sets
 trainingSet <- read.table("./UCI HAR Dataset/train/X_train.txt")

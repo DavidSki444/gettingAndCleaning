@@ -4,7 +4,7 @@ Code Book
 The data set provides, for each activity and each subject, the average of the following variables, which are the measurements on the mean and standard deviation for each measurement from the original "Human Activity Recognition Using Smartphones Dataset" :
 
 (...-mean(): Mean value
-...-std(): Standard deviation)
+...-std(): Standard deviation) 
 
 -- Accelerometer - time domain signals (prefix 't' to denote time) :
 1 tBodyAcc-mean()-X : body acceleration - X direction - Mean value
